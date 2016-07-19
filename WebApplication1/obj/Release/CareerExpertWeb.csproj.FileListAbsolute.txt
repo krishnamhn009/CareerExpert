@@ -1,0 +1,53 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\BALLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\UtilLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\DAOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\SqlHelper.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\BALLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\POCOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\UtilLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\DAOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\bin\SqlHelper.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\obj\Release\CareerExpertWeb.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+D:\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\WebApplication1\WebApplication1\bin\BALLib.dll
+D:\WebApplication1\WebApplication1\bin\MCPG.ASP.net.ENC.dll
+D:\WebApplication1\WebApplication1\bin\MCPG.CCA.Util.dll
+D:\WebApplication1\WebApplication1\bin\MySql.Data.dll
+D:\WebApplication1\WebApplication1\bin\POCOLib.dll
+D:\WebApplication1\WebApplication1\bin\UtilLib.dll
+D:\WebApplication1\WebApplication1\bin\DAOLib.dll
+D:\WebApplication1\WebApplication1\bin\SqlHelper.dll
+D:\WebApplication1\WebApplication1\bin\BALLib.pdb
+D:\WebApplication1\WebApplication1\bin\POCOLib.pdb
+D:\WebApplication1\WebApplication1\bin\UtilLib.pdb
+D:\WebApplication1\WebApplication1\bin\DAOLib.pdb
+D:\WebApplication1\WebApplication1\bin\SqlHelper.pdb
+D:\WebApplication1\WebApplication1\obj\Release\CareerExpertWeb.csprojResolveAssemblyReference.cache
+D:\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+D:\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\WebApplication1.dll.config
+D:\WebApplication1\CareerExpert\WebApplication1\bin\WebApplication1.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\WebApplication1.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\BALLib.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\MCPG.ASP.net.ENC.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\MCPG.CCA.Util.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\MySql.Data.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\POCOLib.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\UtilLib.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\DAOLib.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\SqlHelper.dll
+D:\WebApplication1\CareerExpert\WebApplication1\bin\BALLib.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\POCOLib.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\UtilLib.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\DAOLib.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\bin\SqlHelper.pdb
+D:\WebApplication1\CareerExpert\WebApplication1\obj\Release\CareerExpertWeb.csprojResolveAssemblyReference.cache
+D:\WebApplication1\CareerExpert\WebApplication1\obj\Release\WebApplication1.dll
+D:\WebApplication1\CareerExpert\WebApplication1\obj\Release\WebApplication1.pdb

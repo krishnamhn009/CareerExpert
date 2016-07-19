@@ -1,0 +1,24 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll.config
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\obj\Debug\SqlHelper.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\obj\Debug\SqlHelper.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SqlHelper\obj\Debug\SqlHelper.csprojResolveAssemblyReference.cache
+D:\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll.config
+D:\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll
+D:\Projects\WebApplication1\SqlHelper\bin\Debug\SqlHelper.pdb
+D:\Projects\WebApplication1\SqlHelper\obj\Debug\SqlHelper.dll
+D:\Projects\WebApplication1\SqlHelper\obj\Debug\SqlHelper.pdb
+D:\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll.config
+D:\WebApplication1\SqlHelper\bin\Debug\SqlHelper.dll
+D:\WebApplication1\SqlHelper\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\SqlHelper\bin\Debug\MySql.Data.dll
+D:\WebApplication1\SqlHelper\obj\Debug\SqlHelper.dll
+D:\WebApplication1\SqlHelper\obj\Debug\SqlHelper.pdb
+D:\WebApplication1\SqlHelper\obj\Debug\SqlHelper.csprojResolveAssemblyReference.cache
+D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\SqlHelper.dll.config
+D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\SqlHelper.dll
+D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\MySql.Data.dll
+D:\WebApplication1\CareerExpert\SqlHelper\obj\Debug\SqlHelper.dll
+D:\WebApplication1\CareerExpert\SqlHelper\obj\Debug\SqlHelper.pdb

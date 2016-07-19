@@ -1,0 +1,21 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.dll.config
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\obj\Debug\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\obj\Debug\POCOLib.pdb
+D:\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.dll.config
+D:\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.dll
+D:\Projects\WebApplication1\POCOLib\bin\Debug\POCOLib.pdb
+D:\Projects\WebApplication1\POCOLib\obj\Debug\POCOLib.dll
+D:\Projects\WebApplication1\POCOLib\obj\Debug\POCOLib.pdb
+D:\WebApplication1\POCOLib\bin\Debug\POCOLib.dll.config
+D:\WebApplication1\POCOLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\POCOLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\POCOLib\obj\Debug\POCOLib.dll
+D:\WebApplication1\POCOLib\obj\Debug\POCOLib.pdb
+D:\WebApplication1\POCOLib\obj\Debug\POCOLib.csprojResolveAssemblyReference.cache
+D:\WebApplication1\CareerExpert\POCOLib\bin\Debug\POCOLib.dll.config
+D:\WebApplication1\CareerExpert\POCOLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\CareerExpert\POCOLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\CareerExpert\POCOLib\obj\Debug\POCOLib.dll
+D:\WebApplication1\CareerExpert\POCOLib\obj\Debug\POCOLib.pdb

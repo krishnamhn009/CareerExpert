@@ -1,0 +1,229 @@
+﻿
+        .carousel-caption h3
+        {
+            color: #fff !important;
+        }
+        
+        @media (max-width: 600px)
+        {
+            .carousel-caption
+            {
+                display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+            }
+        }
+        .logo-small
+        {
+            /*color: #000c33;*/ color: #000000;
+            font-size: 50px;
+        }
+        .logo-smaller
+        {
+            color:#66ff66;
+            font-size: 40px;
+        }
+        .logo
+        {
+            color: #000c33;
+            font-size: 200px;
+        }
+        
+        /*h2 css for specific devices start*/
+        
+        h2 small
+        {
+            font-size: 40px;
+        }
+        @media (max-width: 768px)
+        {
+            h2 small
+            {
+                font-size: 35px;
+            }
+        }
+        @media (max-width: 480px)
+        {
+            h2 small
+            {
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 180px)
+        {
+            h2 small
+            {
+                font-size: 25px;
+            }
+        }
+        h1 small, h2 small, h3 small
+        {
+            font-family: 'Raleway' , sans-serif;
+            font-weight: 100;
+            color: #121212;
+        }
+        
+        /*h2 css for specific devices end*/
+        /* for mission text*/
+        .lead
+        {
+            font-size: 21px;
+            font-weight: 300;
+        }
+        p
+        {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
+        @media (max-width: 768px)
+        {
+            .lead
+            {
+                font-size: 19px;
+                font-weight: 300;
+            }
+        }
+        @media (max-width: 480px)
+        {
+            .lead
+            {
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+        @media (max-width: 180px)
+        {
+            .lead
+            {
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+        
+        /* marquee and hover*/
+        
+  .marquee {
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 25s linear;
+    /*style font*/
+    padding-left: 1.5em;
+    position: relative;
+    font: 16px 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+.marquee:hover {
+    animation-play-state: paused
+}
+.anchor a, .career a {
+    color: #ffffff;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.anchor a:hover, .career a:hover {
+    color: #F65314;
+}
+
+/*for background image*/
+.home-container 
+{
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 50px;
+    background-image:url("/Image/pattern.png");    
+    background-color:rgba(102,102,102,0.6);
+   
+}
+
+#home 
+{
+    padding-top:0;
+    background-position: center 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("/Image/logo10.jpg");
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.home-title {
+    position: relative;
+    color: #FFFFFF;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-title h1
+  {
+      font-size:40px;
+      font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+
+     @media (max-width: 480px)
+          {
+            .home-title h1
+              {
+                  font-size: 42px;
+              }
+          }
+          @media (max-width: 180px)
+          {
+           .home-title h1
+              {
+                  font-size: 32px;
+              }
+          }
+   /* Black buttons with extra padding and without rounded borders */       
+    .btn {
+    padding: 10px 20px;
+    /*background-color: #333;*/
+    background-color: #000000;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+ 
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus 
+{
+    border: 1px solid #000000;
+   /* border: 1px solid #333;*/
+    background-color: #fff;
+    color: #000;
+}
+/*Modal Design*/
+/* Add a dark gray background color to the modal header and center text */
+.mod-header, mod-h4, .mod-close {
+    /*background-color: #333;*/
+    background-color: #000000;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mod-header, .mod-body {
+    padding: 20px 20px;
+}
+/*Modal Design*/

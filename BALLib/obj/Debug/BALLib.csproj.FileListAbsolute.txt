@@ -1,0 +1,58 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\BALLib.dll.config
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\BALLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\BALLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\DAOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\UtilLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\SqlHelper.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\DAOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\POCOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\UtilLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\bin\Debug\SqlHelper.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\obj\Debug\BALLib.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\obj\Debug\BALLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\BALLib\obj\Debug\BALLib.pdb
+D:\Projects\WebApplication1\BALLib\bin\Debug\BALLib.dll.config
+D:\Projects\WebApplication1\BALLib\bin\Debug\BALLib.dll
+D:\Projects\WebApplication1\BALLib\bin\Debug\BALLib.pdb
+D:\Projects\WebApplication1\BALLib\bin\Debug\DAOLib.dll
+D:\Projects\WebApplication1\BALLib\bin\Debug\POCOLib.dll
+D:\Projects\WebApplication1\BALLib\bin\Debug\UtilLib.dll
+D:\Projects\WebApplication1\BALLib\bin\Debug\SqlHelper.dll
+D:\Projects\WebApplication1\BALLib\bin\Debug\DAOLib.pdb
+D:\Projects\WebApplication1\BALLib\bin\Debug\POCOLib.pdb
+D:\Projects\WebApplication1\BALLib\bin\Debug\UtilLib.pdb
+D:\Projects\WebApplication1\BALLib\bin\Debug\SqlHelper.pdb
+D:\Projects\WebApplication1\BALLib\obj\Debug\BALLib.csprojResolveAssemblyReference.cache
+D:\Projects\WebApplication1\BALLib\obj\Debug\BALLib.dll
+D:\Projects\WebApplication1\BALLib\obj\Debug\BALLib.pdb
+D:\WebApplication1\BALLib\bin\Debug\BALLib.dll.config
+D:\WebApplication1\BALLib\bin\Debug\BALLib.dll
+D:\WebApplication1\BALLib\bin\Debug\BALLib.pdb
+D:\WebApplication1\BALLib\bin\Debug\DAOLib.dll
+D:\WebApplication1\BALLib\bin\Debug\MySql.Data.dll
+D:\WebApplication1\BALLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\BALLib\bin\Debug\UtilLib.dll
+D:\WebApplication1\BALLib\bin\Debug\SqlHelper.dll
+D:\WebApplication1\BALLib\bin\Debug\DAOLib.pdb
+D:\WebApplication1\BALLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\BALLib\bin\Debug\UtilLib.pdb
+D:\WebApplication1\BALLib\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\BALLib\obj\Debug\BALLib.csprojResolveAssemblyReference.cache
+D:\WebApplication1\BALLib\obj\Debug\BALLib.dll
+D:\WebApplication1\BALLib\obj\Debug\BALLib.pdb
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\BALLib.dll.config
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\BALLib.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\BALLib.pdb
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\DAOLib.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\MySql.Data.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\UtilLib.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\SqlHelper.dll
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\DAOLib.pdb
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\UtilLib.pdb
+D:\WebApplication1\CareerExpert\BALLib\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\CareerExpert\BALLib\obj\Debug\BALLib.csprojResolveAssemblyReference.cache
+D:\WebApplication1\CareerExpert\BALLib\obj\Debug\BALLib.dll
+D:\WebApplication1\CareerExpert\BALLib\obj\Debug\BALLib.pdb

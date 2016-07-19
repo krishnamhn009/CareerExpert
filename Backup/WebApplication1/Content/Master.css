@@ -1,0 +1,322 @@
+﻿ .navbar
+        {
+            margin-bottom: 0;         
+            background-color:#000000;
+            z-index: 9999;
+            border: 0;
+            font-size: 13px !important;
+           
+            line-height: .01 !important;
+            letter-spacing: 0.02em;
+            border-radius: 0;
+
+          
+        }
+     .dropdown-menu li a:hover {
+    background-color: #000000 !important;
+}      
+       
+       .navbar-nav li a:hover, .navbar-nav li.active a
+        {
+            color: #00e6e6 !important;
+             transition: color .10s;
+           /* background-color: #fff !important;*/
+           /* border-color: transparent;*/
+        }
+        
+      
+        
+        .navbar-default .navbar-toggle
+        {
+            border-color: transparent;
+            color: #fff !important;
+        }
+        
+        /* footer start*/
+        footer .glyphicon
+        {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #66ff66;
+        }
+        
+        footer
+        {
+            background-color: #000000;
+            width: 100%;
+            height: 10%;
+            color: #f5f5f5;
+            padding: -0px; /* margin-bottom: -0.1em !important;*/
+            letter-spacing: 0.10em;
+        }
+        footer a
+        {
+            color: #00e6e6;
+        }
+        
+        footer a:hover
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        #footer
+        {
+            background-color: #323A45; /* #2980B9;*/
+            padding: 30px 0 0px; /*40px 0 30px*/
+            text-align: center;
+        }
+        #footer h1
+        {
+            letter-spacing: 0.15em;
+            font-size: 20px;
+            color: #eee;
+            text-transform: uppercase;
+            margin-bottom: 0.5em !important;
+        }
+        
+        h3.follow
+        {
+            color: #eee;
+            width: 50%;
+            margin: 0 auto 40px;
+            line-height: 30px;
+            margin-bottom: 0.5em !important;
+            letter-spacing: 0.10em;
+        }
+        .center
+        {
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        /*Social Icons */
+        .follow_us
+        {
+            text-align: center;
+        }
+        .follow_us a.zocial
+        {
+            font-size: 36px;
+            width: 77px;
+            margin: 0 10px 0 0;
+            text-align: center;
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+            background: transparent;
+            opacity: 0.2;
+        }
+        .follow_us a.zocial:hover
+        {
+            opacity: 1.0;
+            background: transparent;
+        }
+        
+        .copyright a
+        {
+            color: #888;
+        }
+        .copyright a:hover
+        {
+            color: #777;
+        }
+        .strong
+        {
+            font-weight: 50;
+            color: White;
+        }
+        /*added for top margin to put some space*/
+        .margin-top-05
+        {
+            margin-top: 0.5em;
+        }
+        .margin-top-10
+        {
+            margin-top: 1.0em;
+        }
+        .margin-top-15
+        {
+            margin-top: 1.5em;
+        }
+        .margin-top-20
+        {
+            margin-top: 2.0em;
+        }
+        .margin-top-25
+        {
+            margin-top: 2.5em;
+        }
+        .margin-top-30
+        {
+            margin-top: 3.0em;
+        }
+        .margin-top-70
+        {
+            margin-top: 7.0em;
+        }
+        .margin-top-50
+        {
+            margin-top: 5.0em;
+        }
+        /*end*/
+        /*carousel ie image slider design */
+        .carousel-control.right, .carousel-control.left
+        {
+            background-image: none;
+            color: #000c33;
+        }
+        .carousel-indicators li
+        {
+            border-color: Green;
+        }
+        
+        .carousel-indicators li.active
+        {
+            background-color: #000c33;
+        }
+        
+        .item h4
+        {
+            font-size: 19px;
+            line-height: 1.375em;
+            font-weight: 400;
+            font-style: italic;
+            margin: 70px 0;
+        }
+        
+        .item span
+        {
+            font-style: normal;
+        }
+        
+        body
+        {
+            /*  font: 400 15px Lato, sans-serif;
+            line-height: 1.8;
+            color: #818181;
+         font-family: "Raleway", sans-serif;
+         font-weight: 200;
+         color: #121212;  */
+            font-family: 'Raleway' , sans-serif;
+            font-weight: 200;
+            color: #121212;
+        }
+        
+        .jumbotron
+        {
+            /* font-family: Montserrat, sans-serif;
+            background:sky;*/
+            font-family: 'Raleway' , sans-serif;
+            font-weight: 200;
+            color: #121212;
+        }
+        
+        .navbar
+        {
+            font-family: Montserrat, sans-serif; /* font-family: 'Raleway', sans-serif;*/
+        }
+        
+        .navbar-brand
+        {
+            float: left;
+            height: 40px;            
+            padding: 5px 0 15px 15px;
+            font-size: 30px;
+            line-height: 20px;
+        }
+
+.image {
+   /* border: 10px solid transparent;
+  
+    width: 80%;
+    height: 80%;
+   /* opacity: 0.7;*/
+     margin-bottom: 10px;
+}
+.image:hover {
+    border-color: #f1f1f1;
+}
+
+.panel-transparent {
+        background: none;
+    }
+
+    .panel-transparent .panel-heading{
+        background: rgba(122, 130, 136, 0.2)!important;
+    }
+
+    .panel-transparent .panel-body{
+        background: rgba(46, 51, 56, 0.2)!important;
+    }
+    
+    .dropdown-tranparent
+    {
+        background-color:Transparent !important;
+        
+        }
+        
+        
+        .placeholder {
+ font-size: 14px;
+ color: #ffffff;
+ 
+ }
+ .pan-heading{
+     background-color: #333;
+    color: #fff !important;
+     padding: 40px 50px;
+    }
+    /*panel border black*/
+    .panel-career {
+    border: 1px solid #000000; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+/*panel hover*/
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    
+}
+
+.panel-heading-career {
+    color: #fff !important;
+    background-color: #000000 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer-career {
+    background-color: #fff !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.author-img  {
+      
+   padding: 10px 10px 10px 10px;
+    position : relative;
+    color: #fff;
+    font-size: 8px;
+    position: static;   
+}
+.img-round
+{
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:1px solid #e1e1e1 ;
+    border-color:Gray !important;
+     
+}
+ 
+ 

@@ -1,0 +1,16 @@
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\ASPSnippets.SmsAPI.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\BALLib.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\POCOLib.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\DAOLib.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\SqlHelper.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\UtilLib.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\BALLib.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\POCOLib.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\DAOLib.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\SqlHelper.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\UtilLib.pdb
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\user\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

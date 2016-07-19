@@ -1,0 +1,4 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SendingMail\bin\SendingMail.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SendingMail\bin\SendingMail.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SendingMail\obj\Debug\SendingMail.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\SendingMail\obj\Debug\SendingMail.pdb

@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/TableStyle.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-1.4.1-vsdoc.js" type="text/javascript"></script>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <img src="Image/logo2.jpg" alt="logo2" class="logo" />
+                </h1>
+            </div>
+            <%--  <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>--%>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Home" Selected="True" />
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Services" Value="Services" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Our Associates" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Our Experts" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Online Test" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Contact Us" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+        <%--  Added--%>
+        <div class="leftCol">
+            <table style="width: 100%;">
+                <tr>
+                    <td colspan="2">
+                        <p>
+                            News</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="rightCol">
+            <div>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>
+                            Request A Callback
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:TextBox ID="TextBoxName" runat="server" Placeholder="Name"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:TextBox ID="TextBoxMail" runat="server" Placeholder="Email"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td>
+                            <asp:TextBox ID="TextBoxQual" runat="server" Placeholder="Qualification" ></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:TextBox ID="TextMNo" runat="server" Placeholder="Mobile No."></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:DropDownList ID="DropDownListState" runat="server">
+                                <asp:ListItem>Select State</asp:ListItem>
+                                <asp:ListItem>Jharkhand</asp:ListItem>
+                                <asp:ListItem>Bihar</asp:ListItem>
+                                <asp:ListItem>West Bengal</asp:ListItem>
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:TextBox ID="TextQuery" TextMode="multiline" Columns="16" Rows="5" runat="server" ></asp:TextBox>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <asp:Button ID="ButtonCallback" runat="server" Text="Submit" 
+                                onclick="ButtonCallback_Click" ></asp:Button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <%-- End--%>
+    </div>
+    <%-- <div class="clear">
+    </div>
+    <div class="leftCol">
+         <table style="width: 100%;">
+            <tr>
+                <td colspan="2">
+                   <p>News</p>
+                </td>               
+            </tr>
+            <tr>              
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+    </div>
+     <div class="rightCol">
+         <table style="width: 100%;">
+          <tr>
+            <th colspan="2">Request A Callback</th>
+          </tr>
+             <tr>
+                 <td>
+                      <asp:TextBox ID="TextBoxName" runat="server" Text="Name"></asp:TextBox>
+                 </td>
+                 <td>
+                     <asp:TextBox ID="TextBoxMNo" runat="server" Text="Mobile" Width="10"></asp:TextBox>
+                 </td>
+               
+             </tr>
+             <tr>
+                 <td>
+                     <asp:TextBox ID="TextBoxMail" runat="server" Text="Email"></asp:TextBox>
+                 </td>
+               
+                 <td>
+                     <asp:TextBox ID="TextBoxQual" runat="server" Text="Qualification" Width="10"></asp:TextBox>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <asp:DropDownList ID="DropDownListState" runat="server">
+                         <asp:ListItem>Select State</asp:ListItem>
+                         <asp:ListItem>Jharkhand</asp:ListItem>
+                         <asp:ListItem>Bihar</asp:ListItem>
+                         <asp:ListItem>West Bengal</asp:ListItem>
+                     </asp:DropDownList>
+                 </td>
+                 <td>
+                     <asp:TextBox ID="TextBoxMa" runat="server" Text="Email" Width="10"></asp:TextBox>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
+                 </td>
+                 <td>
+                     <asp:TextBox ID="TextBox1" runat="server" Width="10"></asp:TextBox>
+                 </td>
+             </tr>
+         </table>
+    </div>
+   <div class="clear">
+   </div>--%>
+    <div class="footer1">
+    </div>
+    <div class="footer">
+        <div class="AdSlideFooter">
+            <p>
+                Image Slider</p>
+        </div>
+        <a href="http://www.dynamicdrive.com/style/">Dynamic Drive CSS Library</a>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2016-03-20T21:33:08.2270026+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>D:\CExpert</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>10/03/2015 18:02:39</publishTime>
+    </File>
+    <File Include="Admin.aspx">
+      <publishTime>05/20/2016 01:17:56</publishTime>
+    </File>
+    <File Include="AdmissionsConsultant.aspx">
+      <publishTime>05/06/2016 14:49:40</publishTime>
+    </File>
+    <File Include="Assesment.aspx">
+      <publishTime>12/18/2015 12:51:50</publishTime>
+    </File>
+    <File Include="bin/BALLib.dll">
+      <publishTime>05/20/2016 01:49:49</publishTime>
+    </File>
+    <File Include="bin/DAOLib.dll">
+      <publishTime>05/20/2016 01:49:49</publishTime>
+    </File>
+    <File Include="bin/MCPG.ASP.net.ENC.dll">
+      <publishTime>04/20/2016 23:03:11</publishTime>
+    </File>
+    <File Include="bin/MCPG.CCA.Util.dll">
+      <publishTime>02/04/2014 16:45:10</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>10/02/2015 17:04:56</publishTime>
+    </File>
+    <File Include="bin/POCOLib.dll">
+      <publishTime>05/20/2016 01:49:48</publishTime>
+    </File>
+    <File Include="bin/SqlHelper.dll">
+      <publishTime>04/21/2016 00:13:42</publishTime>
+    </File>
+    <File Include="bin/UtilLib.dll">
+      <publishTime>05/20/2016 01:49:48</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>05/20/2016 01:49:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-social.css">
+      <publishTime>12/27/2015 00:35:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>03/04/2016 19:53:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>03/04/2016 19:53:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/21/2016 18:41:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/04/2016 19:53:21</publishTime>
+    </File>
+    <File Include="Content/custome.css">
+      <publishTime>04/30/2016 12:36:46</publishTime>
+    </File>
+    <File Include="Content/Font.css">
+      <publishTime>11/21/2015 15:33:06</publishTime>
+    </File>
+    <File Include="Content/Master.css">
+      <publishTime>04/30/2016 13:53:46</publishTime>
+    </File>
+    <File Include="C_logos/accenture.png">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/amdocs-logo.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/Barclays.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/capgmni.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/cog.png">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/Cybage.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/ericssion.png">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/hp.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/ibm.png">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/Infosys-logo.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/KPIT.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/LnT.png">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/mahindra.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/mintree.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/MphasiS-Logo.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/persistant.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/TCS-logo.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="C_logos/wipro.jpg">
+      <publishTime>12/30/2015 00:49:10</publishTime>
+    </File>
+    <File Include="dataFrom.Html">
+      <publishTime>04/20/2016 23:54:33</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/30/2016 12:30:54</publishTime>
+    </File>
+    <File Include="Default1.aspx">
+      <publishTime>11/20/2015 01:04:33</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>01/18/2016 19:44:56</publishTime>
+    </File>
+    <File Include="ExpertCouncelling1.aspx">
+      <publishTime>03/05/2016 15:31:33</publishTime>
+    </File>
+    <File Include="Faculty.aspx">
+      <publishTime>10/05/2015 01:28:40</publishTime>
+    </File>
+    <File Include="Feedback.aspx">
+      <publishTime>01/31/2016 13:51:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/04/2016 19:53:21</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/03/2015 18:02:39</publishTime>
+    </File>
+    <File Include="Icon/title.png">
+      <publishTime>11/28/2015 01:09:37</publishTime>
+    </File>
+    <File Include="Image/expert_01.jpg">
+      <publishTime>11/28/2015 23:20:19</publishTime>
+    </File>
+    <File Include="Image/logo1.jpg">
+      <publishTime>12/07/2015 21:40:10</publishTime>
+    </File>
+    <File Include="Image/logo10.jpg">
+      <publishTime>12/07/2015 21:43:44</publishTime>
+    </File>
+    <File Include="Image/logo7.png">
+      <publishTime>11/28/2015 01:52:34</publishTime>
+    </File>
+    <File Include="Image/p1.jpg">
+      <publishTime>12/29/2015 23:39:45</publishTime>
+    </File>
+    <File Include="Image/p2.jpg">
+      <publishTime>12/29/2015 23:44:00</publishTime>
+    </File>
+    <File Include="Image/p3.jpg">
+      <publishTime>12/29/2015 23:44:00</publishTime>
+    </File>
+    <File Include="Image/p4.jpg">
+      <publishTime>12/29/2015 23:44:00</publishTime>
+    </File>
+    <File Include="Image/p5.jpg">
+      <publishTime>12/29/2015 23:44:00</publishTime>
+    </File>
+    <File Include="Image/p6.jpg">
+      <publishTime>12/29/2015 23:44:00</publishTime>
+    </File>
+    <File Include="Image/p8.jpg">
+      <publishTime>12/30/2015 00:07:32</publishTime>
+    </File>
+    <File Include="Image/pattern.png">
+      <publishTime>11/23/2015 07:20:08</publishTime>
+    </File>
+    <File Include="Image/po.jpg">
+      <publishTime>11/23/2015 07:22:10</publishTime>
+    </File>
+    <File Include="Image/sandeep.jpg">
+      <publishTime>04/24/2016 23:52:57</publishTime>
+    </File>
+    <File Include="Image/saurav.jpg">
+      <publishTime>04/27/2016 08:50:31</publishTime>
+    </File>
+    <File Include="Image/sweta.jpg">
+      <publishTime>04/17/2016 09:47:49</publishTime>
+    </File>
+    <File Include="Image/zeeshan.jpg">
+      <publishTime>04/24/2016 23:56:22</publishTime>
+    </File>
+    <File Include="Login1.aspx">
+      <publishTime>05/09/2016 23:44:49</publishTime>
+    </File>
+    <File Include="LogOut.aspx">
+      <publishTime>12/13/2015 03:31:09</publishTime>
+    </File>
+    <File Include="MyAccount.aspx">
+      <publishTime>05/04/2016 00:32:12</publishTime>
+    </File>
+    <File Include="OnlineJobs.aspx">
+      <publishTime>05/20/2016 01:24:14</publishTime>
+    </File>
+    <File Include="OnlineResult.aspx">
+      <publishTime>12/08/2015 19:33:42</publishTime>
+    </File>
+    <File Include="OnlineTest.aspx">
+      <publishTime>12/08/2015 19:33:32</publishTime>
+    </File>
+    <File Include="OnlineTest2.aspx">
+      <publishTime>12/19/2015 23:16:13</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/04/2016 19:53:26</publishTime>
+    </File>
+    <File Include="PaymentGateway.aspx">
+      <publishTime>12/31/2015 02:18:23</publishTime>
+    </File>
+    <File Include="PricingPlan.aspx">
+      <publishTime>12/31/2015 02:08:50</publishTime>
+    </File>
+    <File Include="PricingPlan1.aspx">
+      <publishTime>04/20/2016 23:25:51</publishTime>
+    </File>
+    <File Include="pricingplan2.aspx">
+      <publishTime>04/20/2016 23:31:51</publishTime>
+    </File>
+    <File Include="PricingPlan3.aspx">
+      <publishTime>04/20/2016 23:32:23</publishTime>
+    </File>
+    <File Include="Scholership.aspx">
+      <publishTime>11/27/2015 01:08:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/01/2015 22:50:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/01/2015 22:50:29</publishTime>
+    </File>
+    <File Include="Scripts/in.js">
+      <publishTime>01/29/2016 10:30:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>10/03/2015 18:02:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>10/03/2015 18:02:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>10/03/2015 18:02:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1-vsdoc.js">
+      <publishTime>11/01/2015 22:50:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>11/01/2015 22:50:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>11/01/2015 22:50:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>11/07/2015 05:35:36</publishTime>
+    </File>
+    <File Include="Signup.Master">
+      <publishTime>12/17/2015 12:09:28</publishTime>
+    </File>
+    <File Include="Signup1.aspx">
+      <publishTime>04/28/2016 01:45:39</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>11/01/2015 17:36:08</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>05/10/2016 00:00:26</publishTime>
+    </File>
+    <File Include="Site2.Master">
+      <publishTime>12/08/2015 02:33:31</publishTime>
+    </File>
+    <File Include="StudentAccount.aspx">
+      <publishTime>03/24/2016 01:58:43</publishTime>
+    </File>
+    <File Include="TermsConditions.aspx">
+      <publishTime>04/24/2016 11:55:04</publishTime>
+    </File>
+    <File Include="Tution.aspx">
+      <publishTime>12/05/2015 15:02:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/09/2016 22:25:18</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>12/25/2015 15:40:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Release\POCOLib.dll.config
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Release\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\bin\Release\POCOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\obj\Release\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\POCOLib\obj\Release\POCOLib.pdb
+D:\WebApplication1\POCOLib\bin\Release\POCOLib.dll.config
+D:\WebApplication1\POCOLib\bin\Release\POCOLib.dll
+D:\WebApplication1\POCOLib\bin\Release\POCOLib.pdb
+D:\WebApplication1\POCOLib\obj\Release\POCOLib.dll
+D:\WebApplication1\POCOLib\obj\Release\POCOLib.pdb
+D:\WebApplication1\CareerExpert\POCOLib\bin\Release\POCOLib.dll.config
+D:\WebApplication1\CareerExpert\POCOLib\bin\Release\POCOLib.dll
+D:\WebApplication1\CareerExpert\POCOLib\bin\Release\POCOLib.pdb
+D:\WebApplication1\CareerExpert\POCOLib\obj\Release\POCOLib.dll
+D:\WebApplication1\CareerExpert\POCOLib\obj\Release\POCOLib.pdb

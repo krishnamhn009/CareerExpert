@@ -1,0 +1,50 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.dll.config
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\POCOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\SqlHelper.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\UtilLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\POCOLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\SqlHelper.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\bin\Debug\UtilLib.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.pdb
+D:\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.dll.config
+D:\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.dll
+D:\Projects\WebApplication1\DAOLib\bin\Debug\DAOLib.pdb
+D:\Projects\WebApplication1\DAOLib\bin\Debug\POCOLib.dll
+D:\Projects\WebApplication1\DAOLib\bin\Debug\SqlHelper.dll
+D:\Projects\WebApplication1\DAOLib\bin\Debug\UtilLib.dll
+D:\Projects\WebApplication1\DAOLib\bin\Debug\POCOLib.pdb
+D:\Projects\WebApplication1\DAOLib\bin\Debug\SqlHelper.pdb
+D:\Projects\WebApplication1\DAOLib\bin\Debug\UtilLib.pdb
+D:\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.csprojResolveAssemblyReference.cache
+D:\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.dll
+D:\Projects\WebApplication1\DAOLib\obj\Debug\DAOLib.pdb
+D:\WebApplication1\DAOLib\bin\Debug\DAOLib.dll.config
+D:\WebApplication1\DAOLib\bin\Debug\DAOLib.dll
+D:\WebApplication1\DAOLib\bin\Debug\DAOLib.pdb
+D:\WebApplication1\DAOLib\bin\Debug\MySql.Data.dll
+D:\WebApplication1\DAOLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\DAOLib\bin\Debug\SqlHelper.dll
+D:\WebApplication1\DAOLib\bin\Debug\UtilLib.dll
+D:\WebApplication1\DAOLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\DAOLib\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\DAOLib\bin\Debug\UtilLib.pdb
+D:\WebApplication1\DAOLib\obj\Debug\DAOLib.csprojResolveAssemblyReference.cache
+D:\WebApplication1\DAOLib\obj\Debug\DAOLib.dll
+D:\WebApplication1\DAOLib\obj\Debug\DAOLib.pdb
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\DAOLib.dll.config
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\DAOLib.dll
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\DAOLib.pdb
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\MySql.Data.dll
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\POCOLib.dll
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\SqlHelper.dll
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\UtilLib.dll
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\POCOLib.pdb
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\SqlHelper.pdb
+D:\WebApplication1\CareerExpert\DAOLib\bin\Debug\UtilLib.pdb
+D:\WebApplication1\CareerExpert\DAOLib\obj\Debug\DAOLib.csprojResolveAssemblyReference.cache
+D:\WebApplication1\CareerExpert\DAOLib\obj\Debug\DAOLib.dll
+D:\WebApplication1\CareerExpert\DAOLib\obj\Debug\DAOLib.pdb

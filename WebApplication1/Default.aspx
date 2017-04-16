@@ -2,9 +2,7 @@
     CodeBehind="Default.aspx.cs" Inherits="WebApplication1.WebForm1" %>
 
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" type="text/css" href="Content/custome.css" />
-   
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">       
     <script type="text/javascript">
        
         function checkBlank() {
@@ -53,28 +51,29 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">  
 <%--===================================================--%>
-  <section id="home" class="margin-top-10"> 
-        <div class="home-container text-center">
+  <section id="home" class=" hero banner margin-top-30" runat="server" visible="false"> 
+        <div class="home-container text-center">            
             <div class="home-title">
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <h2>
-                            <strong>Contact Us</strong></h2>
-                        <h2>
-                            <i class="fa fa-whatsapp"></i><strong>+917044079047</strong></h2>
-                            <h2>
-                            <span class="glyphicon glyphicon-phone"></span><strong>+917044079048</strong></h2>
-                        <h3>
-                            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:query@careerexpert.co" style="color:White;">
-                                query@careerexpert.co</a></h3>
-                       <p class="marquee anchor"><a class="margin-top-25" href="admisssion-counselling" style="position:inherit;">Scholarship Program </a></p>           
-                    
-                    </div>
-                
-                    <div class="col-md-5 col-md-offset-2">
-                        <div class="panel panel-transparent">
+                <div class="row ">                                      
+                    <div class="col-md-12">        
+							<h2> We are growing consulting firm </h2>
+							<div class="industry-list row margin-top-20">
+								<div class="col-xs-12 col-sm-4 list-industry-item ">
+									<a href="#" class="industry-link  education theme-yellow-bg"><i class="icon-education"></i>Education</a>
+								</div>
+								<div class="col-xs-12 col-sm-4 list-industry-item">
+									<a href="#" class="industry-link bussiness theme-yellow-bg"><i class="icon-bussiness"></i>Business</a>
+								</div>
+								<div class="col-xs-12 col-sm-4 list-industry-item">
+									<a href="#"><i class="icon-technology"></i>Technology</a>
+								</div>							
+								</div>
+							</div>
+
+                    <div class="panel panel-transparent">
                             <div class="panel-body">
-                                <form id="myform" runat="server">                            
+                                	
+                                <form id="myform" runat="server" visible="false">                            
                                 <div class="row text-center">
                                  <h3 class="text-center">
                                     <strong><label runat="server" id="formHead">Send Your Query</label></strong></h3>
@@ -162,23 +161,88 @@
                                                             
                                 </form>
                             </div>
-                        </div>
-                    </div>
+                        </div>                    
                 </div>
             </div>
             </div>
-            </section>
-<%--===================================================--%>
-
+            
+ </section>
 
   
+<div id="myCarousel" class="carousel slide margin-top-30" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full active" data-bg-video-slide="false" style="background-image: url(Image/coworkers.jpg);">
+                         <div class="mbr-table-cell">  
+                              <div class="mbr-overlay" style="opacity: 0.3;"></div>                          
+                            <div class="container-slide container">                        
+                                <div class="row">
+                                    <h2 class="mbr-section-title display-1">Earn Job Referrals From Company Insiders And Get Hired</h2>
+                                        <p class="mbr-section-lead">Increase Chances of Getting Hired by 20x Times....</p>
+                                        <div class="mbr-section-btn"> <a class="btn btn-lg btn-white btn-white-outline" href="get-jobs">LATEST JOBS</a></div>                                   
+                                </div>
+                         </div>
+                        </div>
+            </div>
+      </div>
+      <div class="item">
+          <div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full active" data-bg-video-slide="false" style="background-image: url(Image/banner-img-2000x853-50.jpg);">
+                    <div class="mbr-table-cell">
+                       
+                            <div class="container-slide container">                                
+                                    <div class="col-md-10 col-md-offset-2 text-xs-center">
+                                        <h2 class="mbr-section-title display-1"><span style="line-height: 1.1;">Hiring? Your next hire is here</span><br></h2>
+                                       <p class="mbr-section-lead lead">Post your job + requirements. Get screened candidates immediately and hire today.</p>
+
+                                        <div class="mbr-section-btn"> <a class="btn btn-lg btn-white btn-white-outline" href="https://mobirise.com">POST YOUR JOB</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+           </div>
+      <div class="item">
+          <div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full active" data-bg-video-slide="false" style="background-image: url(Image/post_job.jpg);">
+        <div class="mbr-table-cell">
+                            <div class="mbr-overlay" style="opacity: 0.5;"></div>
+                            <div class="container-slide container">
+                                
+                                <div class="row">
+                                        <h2 class="mbr-section-title display-1"><span style="line-height: 1.1;">Get Accepted to Your Top Choice College!</span><br></h2>
+                                        <p class="mbr-section-lead lead">We've guided thousands of applicants &nbsp;to acceptances at 450+ top programs since 2009.</p>
+
+                                        <div class="mbr-section-btn"> <a class="btn btn-lg btn-white btn-white-outline" href="find-colleges">FIND YOUR COLLEGE</a></div>
+                                </div>
+                            </div>
+                        </div>
+       </div>
+     </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+    </div>
+<%--===================================================--%>
     <div class="container-fluid">  
     <div class="row" >
     <div class="col-lg-12 text-center" style="visibility:visible;">
       <h2><small>Who <strong>We Are</strong></small></h2>
-         <p class="lead">
+         <h3 class="bg-lead">
               It's our mission to connect people and provide them complete career
-             guidance to achieve their life goals.</p>
+             guidance to achieve their life goals.</h3>
      </div>
     </div>
     <div class ="row margin-top-05 ">
@@ -186,7 +250,9 @@
    <%-- <p class="marquee anchor">scholership program for SC/ST students of BIHAR,Jharkhand and ODISHA  <a href="Scholership.aspx"> click here</a> for detalis</p>--%>
     </div>
     </div>   
-      
+        </div>
+    <div class="container-fluid">  
+        <div class="container">
     <div class="row margin-top-10">
           <div class="col-md-6 text-justify">
           <p>
@@ -215,21 +281,15 @@
               <script async id="snap_zxcvbnhg" src="https://affiliate-ads.snapdeal.com/affiliate/js/snapdealAffiliate.js"></script>--%>
           </div>
           </div>
-     
-    <div id="services" class="container-fluid text-center margin-top-20">
+            </div>               
+     </div>
+    <div class="container-fluid" style="background: rgb(255, 250, 243);"> 
+    <div id="services" class="container-fluid text-center margin-top-20" >
         <h2>
-           <small> Our Services</small></h2>
+           <small>Services</small></h2>
        <h3>total career solutions</h3>
        <p></p>
         <div class="row">
-            <%--<div class="col-sm-3">
-                <a type="button" class="btn btn-lg" href="Services/Tution.aspx"><span class="glyphicon glyphicon-pencil logo-small">
-                </span></a>
-                <h4>
-                    Home Tution</h4>
-                <p>
-                    One to One Faculty</p>
-            </div>--%>
             <div class="col-sm-4">
                 <a type="button" class="btn-lg" href="/our-experts"><span class="glyphicon glyphicon-road logo-small colortheme">
                 </span></a>
@@ -256,7 +316,7 @@
             </div>
         </div>
     </div>
-</div>
+   </div>
 
       
 

@@ -14,11 +14,13 @@
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="Content/bootstrap-social.css" rel="stylesheet" type="text/css" />
     <link href="Content/custome.css" rel="stylesheet" type="text/css" />
-   <%-- <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">--%>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <%--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">--%>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <%--  <link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>--%>
     <link href="Content/Master.css" rel="stylesheet" type="text/css" />
+    <link href="Content/theme.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!--[if IE 7]>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome-ie7.min.css">
@@ -83,21 +85,23 @@
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
                           <%--  <li><a href="#"><i class="fa fa-phone-square fa-2x" style="color:#00e6e6;"></i> call us:7044079047/48</a></li>--%>
-                            <li><a type="button" class="active" href="home" data-toggle="tooltip" title="Home"><i class="fa fa-home fa-2x colortheme" ></i>
-                            </a></li>
-                            <li id="services" runat="server" style="margin-right: 1px;">                                
+                            <%--<li><a type="button" class="active" href="home" data-toggle="tooltip" title="Home"><i class="fa fa-home fa-2x colortheme" ></i>
+                            </a></li>--%>
+                            <%--<li id="services" runat="server" style="margin-right: 1px;">                                
                                     <a href="#modalServices" data-toggle="modal" data-target="#modalServices">
                                        Our Services</a>
-                            </li>                       
-                           <%-- <li><a href="our-experts">Our Experts</a></li>
-                            <li><a href="referral-jobs">Jobs</a></li>  --%>                                                                        
+                            </li> --%>                      
+                           <%-- <li><a href="our-experts">Our Experts</a></li>--%>  
+                            <li><a href="get-jobs">Find Jobs</a></li>  
+                             <li><a href="find-colleges">Find Colleges</a></li> 
+                                <li><a href="get-jobs">Employer</a></li>                                                                      
                             <li id="signup" runat="server" style="margin-right: 1px;">                                
                                     <a href="#modalSignup" data-toggle="modal" data-target="#modalSignup"><span class="glyphicon glyphicon-user" style="color:#1abc9c;"></span>
                                         Signup</a>
                             </li>
                             <li id="login" runat="server">                             
-                                    <a href="#myModal"   data-toggle="modal" data-target="#modalLogin"><span class="glyphicon glyphicon-log-in" style="color:#1abc9c;"></span>
-                                        Login</a>.
+                                    <a href="#myModal"   data-toggle="modal" data-target="#modalLogin" ><span class="glyphicon glyphicon-log-in" style="color:#1abc9c;"></span>
+                                        Login</a>
                             </li>
                             <%--============================================--%>
                             <li class="dropdown" runat="server" visible="false" id="nameSection"><a id="showDropdown" class="dropdown-toggle" data-toggle="dropdown" >

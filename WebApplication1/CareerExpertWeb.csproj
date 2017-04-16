@@ -49,6 +49,10 @@
     <Reference Include="Accessibility">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="AjaxControlToolkit, Version=16.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.16.1.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MCPG.ASP.net.ENC">
       <HintPath>DLL\MCPG.ASP.net.ENC.dll</HintPath>
     </Reference>
@@ -85,6 +89,8 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custome1.css" />
+    <Content Include="Content\theme.css" />
     <Content Include="C_logos\accenture.png" />
     <Content Include="C_logos\amdocs-logo.jpg" />
     <Content Include="C_logos\Barclays.jpg" />
@@ -109,6 +115,13 @@
     <Content Include="Feedback.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon\title.png" />
+    <Content Include="Image\banner-img-2000x853-50.jpg" />
+    <Content Include="Image\banner-img.jpg" />
+    <Content Include="Image\banner.jpg" />
+    <Content Include="Image\coworkers.jpg" />
+    <Content Include="Image\education-icon.png" />
+    <Content Include="Image\icon-bussiness.png" />
+    <Content Include="Image\icon-technology.png" />
     <Content Include="Image\mainLogo.png" />
     <Content Include="Image\p1.jpg" />
     <Content Include="Image\p2.jpg" />
@@ -116,6 +129,7 @@
     <Content Include="Image\p4.jpg" />
     <Content Include="Image\p5.jpg" />
     <Content Include="Image\p6.jpg" />
+    <Content Include="Image\p8-2000x691-79.jpg" />
     <Content Include="Image\p8.jpg" />
     <Content Include="AdmissionsConsultant.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -124,13 +138,14 @@
     <Content Include="Content\Master.css" />
     <Content Include="ExpertCouncelling1.aspx" />
     <Content Include="Faculty.aspx" />
-    <Content Include="Icon\title1.png" />
     <Content Include="Image\logo1.jpg" />
     <Content Include="Image\expert_01.jpg" />
     <Content Include="Image\logo10.jpg" />
     <Content Include="Image\logo7.png" />
     <Content Include="Image\pattern.png" />
     <Content Include="Image\po.jpg" />
+    <Content Include="Image\post-job-2000x1000-21.png" />
+    <Content Include="Image\resume-find-2000x1330-11.jpg" />
     <Content Include="Image\sandeep.jpg" />
     <Content Include="Image\saurav.jpg" />
     <Content Include="Image\sweta.jpg" />
@@ -142,7 +157,9 @@
     <Content Include="OnlineResult.aspx" />
     <Content Include="OnlineTest.aspx" />
     <Content Include="OnlineTest2.aspx" />
+    <Content Include="page1.html" />
     <Content Include="PaymentGateway.aspx" />
+    <Content Include="PostJob.aspx" />
     <Content Include="PricingPlan.aspx" />
     <Content Include="PricingPlan1.aspx" />
     <Content Include="pricingplan2.aspx" />
@@ -298,6 +315,13 @@
     </Compile>
     <Compile Include="PaymentGateway.aspx.designer.cs">
       <DependentUpon>PaymentGateway.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostJob.aspx.cs">
+      <DependentUpon>PostJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostJob.aspx.designer.cs">
+      <DependentUpon>PostJob.aspx</DependentUpon>
     </Compile>
     <Compile Include="PricingPlan.aspx.cs">
       <DependentUpon>PricingPlan.aspx</DependentUpon>

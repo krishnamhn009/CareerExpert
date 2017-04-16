@@ -55,7 +55,42 @@ namespace DAOLib
 
        }
 
-       public bool DeleteJob(string jobId)
+        public bool PostJob(Jobs job, string userMessage, string adminMessage, string mailSubject)
+        {
+            //Change Proc
+            string query = Constants.POSTJOBS;
+            MySqlParameter[] sqlParameters = new MySqlParameter[13];
+            sqlParameters[0] = new MySqlParameter("@p_job_id", MySqlDbType.VarChar);
+            sqlParameters[0].Value = Convert.ToString(job.JobId);
+            sqlParameters[1] = new MySqlParameter("@p_Job_Desc", MySqlDbType.VarChar);
+            sqlParameters[1].Value = Convert.ToString(job.JobDesc);
+            sqlParameters[2] = new MySqlParameter("@p_Job_Title", MySqlDbType.VarChar);
+            sqlParameters[2].Value = Convert.ToString(job.JobTitle);
+            sqlParameters[3] = new MySqlParameter("@p_Job_Skills", MySqlDbType.VarChar);
+            sqlParameters[3].Value = Convert.ToString(job.JobSkills);
+            sqlParameters[4] = new MySqlParameter("@p_Job_Salary", MySqlDbType.VarChar);
+            sqlParameters[4].Value = Convert.ToString(job.ExpectedCTC);
+            sqlParameters[5] = new MySqlParameter("@p_Job_Exp", MySqlDbType.VarChar);
+            sqlParameters[5].Value = Convert.ToString(job.JobExperience);
+            sqlParameters[6] = new MySqlParameter("@p_Job_Loc", MySqlDbType.VarChar);
+            sqlParameters[6].Value = Convert.ToString(job.Location);
+            sqlParameters[7] = new MySqlParameter("@p_Job_Company", MySqlDbType.VarChar);
+            sqlParameters[7].Value = Convert.ToString(job.Company);
+            sqlParameters[8] = new MySqlParameter("@p_Email", MySqlDbType.VarChar);
+            sqlParameters[8].Value = Convert.ToString(job.Email);
+            sqlParameters[9] = new MySqlParameter("@p_user_message", MySqlDbType.VarChar);
+            sqlParameters[9].Value = Convert.ToString(userMessage);
+            sqlParameters[10] = new MySqlParameter("@p_admin_message", MySqlDbType.VarChar);
+            sqlParameters[10].Value = Convert.ToString(adminMessage);
+            sqlParameters[11] = new MySqlParameter("@p_mail_subject", MySqlDbType.VarChar);
+            sqlParameters[11].Value = Convert.ToString(mailSubject);
+            sqlParameters[12] = new MySqlParameter("@p_days", MySqlDbType.Int32);
+            sqlParameters[12].Value = Convert.ToString(job.JobExpireDays);
+            return conn.executeInsertQuery(query, sqlParameters);
+
+        }
+
+        public bool DeleteJob(string jobId)
        {
            string query = Constants.DELJOB;
            MySqlParameter[] sqlParameters = new MySqlParameter[1];
@@ -176,7 +211,7 @@ namespace DAOLib
                {
                    Jobs job = new Jobs(item["job_id"].ToString(), item["job_title"].ToString(), item["job_desc"].ToString(), item["job_experience"].ToString(), item["job_company"].ToString(), item["job_location"].ToString());
                    DateTime date = DateTime.ParseExact(item["posted_date"].ToString(), "M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
-                   job.PostedDate = date.Day + "/" + date.Month + "/" + date.Year;
+                   job.PostedDate = date.ToString("d MMM");
                    job.JobType = item["active_jobs"].ToString();
                    jobs.Add(job);
 

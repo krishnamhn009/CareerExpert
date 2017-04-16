@@ -269,25 +269,33 @@
         <div class="panel panel-primary">
             <div class="panel-body ">
            
-                <div class="row text-center page-header">
-                    <div class="col-md-offset-3 col-sm-offset-2 col-md-2 col-sm-3 form-group">
-                        <div class="dropdown">
-                            <asp:DropDownList runat="server" ID="ddlCourse" CssClass="btn-sm btn-lg dropdown-toggle"
-                                                EnableTheming="true">                                                
+                <div id="search-College">                   
+                    <div class="row">
+                            <div class="form-group col-md-4 col-sm-4">
+                         <label>Courses </label>
+                                <div class="dropdown">
+                            <asp:DropDownList runat="server" ID="ddlCourse" CssClass="btn btn-lg btn-info-outline dropdown-toggle"
+                                                EnableTheming="true" TabIndex="1">                                                
                             </asp:DropDownList> 
                         </div>
-                    </div>
-                    <div class="form-group col-md-4 col-sm-4">
-                        <div class="dropdown">
-                            <asp:DropDownList runat="server" ID="ddlCity" CssClass="btn-sm btn-lg dropdown-toggle"
-                                                EnableTheming="true">                                               
+                        </div>
+                            <div class="form-group col-md-4 col-sm-4">
+                         <label>Location </label>
+                                <div class="dropdown">
+                            <asp:DropDownList runat="server" ID="ddlCity" CssClass="btn btn-lg btn-info-outline dropdown-toggle"
+                                                EnableTheming="true" TabIndex="2">                                                
                             </asp:DropDownList> 
                         </div>
-                    </div>
+                        </div>
+                  
                     <div class="form-group col-md-1">
-                        <asp:Button CssClass="btn btn-sm btn-lg btn-success" ID="btnSearchJob" runat="server" Text="Search" onclick="btnSearchClg_Click"/>
+                        <br/>
+                        <asp:Button CssClass="btn btn-lg btn-danger-outline" ID="btnSearchJob" runat="server" Text="Search" onclick="btnSearchClg_Click"/>
                     </div>
+                           <%-- </div>--%>
+                        </div>
                 </div>
+                <hr />
                 <div class="container">
     <h3>List Of Colleges:</h3>
    <div class="col-md-10"> 

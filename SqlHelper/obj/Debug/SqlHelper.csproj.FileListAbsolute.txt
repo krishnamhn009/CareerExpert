@@ -22,3 +22,4 @@ D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\SqlHelper.pdb
 D:\WebApplication1\CareerExpert\SqlHelper\bin\Debug\MySql.Data.dll
 D:\WebApplication1\CareerExpert\SqlHelper\obj\Debug\SqlHelper.dll
 D:\WebApplication1\CareerExpert\SqlHelper\obj\Debug\SqlHelper.pdb
+D:\WebApplication1\CareerExpert\SqlHelper\obj\Debug\SqlHelper.csprojResolveAssemblyReference.cache

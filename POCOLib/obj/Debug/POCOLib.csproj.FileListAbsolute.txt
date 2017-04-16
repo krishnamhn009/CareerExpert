@@ -19,3 +19,4 @@ D:\WebApplication1\CareerExpert\POCOLib\bin\Debug\POCOLib.dll
 D:\WebApplication1\CareerExpert\POCOLib\bin\Debug\POCOLib.pdb
 D:\WebApplication1\CareerExpert\POCOLib\obj\Debug\POCOLib.dll
 D:\WebApplication1\CareerExpert\POCOLib\obj\Debug\POCOLib.pdb
+D:\WebApplication1\CareerExpert\POCOLib\obj\Debug\POCOLib.csprojResolveAssemblyReference.cache

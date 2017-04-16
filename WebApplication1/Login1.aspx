@@ -130,7 +130,7 @@ scope:  r_emailaddress
                 </div>--%>
 
                <div class="text-center">                     
-                           <a class="btn-lg btn-social btn-linkedin text-center" onclick="lnkTest();return false;" href="#" >
+                           <a class="btn btn-lg btn-social btn-linkedin text-center" onclick="lnkTest();return false;" href="#" >
                        <span class="fa fa-linkedin fa-3x"></span>Sign in with LinkedIn</a> 
                                                                                                                                              
                 </div>

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace UtilLib
 {
     public class Constants
@@ -32,6 +28,7 @@ namespace UtilLib
         public static string GETALLJOBS = "sp_retreive_jobs";
         public static string GETJOBS = "sp_retreive_all_jobs";
         public static string ADDJOBS = "sp_add_job";
+        public static string POSTJOBS = "sp_post_job";
         public static string DELJOB = "sp_delete_job";
         public static string UPDATEJOB = "sp_update_job";
         public static string GETALLQUESTIONS = "sp_get_questions";

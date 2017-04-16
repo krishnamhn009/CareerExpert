@@ -47,7 +47,11 @@ namespace POCOLib
         public string PostedEmail
         { set; get; }
         public string AppliedEmail
-        { set; get; }        
+        { set; get; }  
+        public string JobSkills
+        { set; get; }
+        public string ExpectedCTC
+        { set; get; }
         public string Location
         { set; get; }
         public string JobTitle

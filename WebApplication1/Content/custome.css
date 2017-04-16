@@ -1,5 +1,4 @@
-﻿
-        .carousel-caption h3
+﻿   .carousel-caption h3
         {
             color: #fff !important;
         }
@@ -32,7 +31,7 @@
         
         h2 small
         {
-            font-size: 40px;
+            font-size: 35px;
         }
         @media (max-width: 768px)
         {
@@ -58,15 +57,15 @@
         h1 small, h2 small, h3 small
         {
             font-family: 'Raleway' , sans-serif;
-            font-weight: 100;
+            font-weight: 800;
             color: #121212;
         }
         
         /*h2 css for specific devices end*/
         /* for mission text*/
-        .lead
+        .bg-lead
         {
-            font-size: 21px;
+            font-size: 31px;
             font-weight: 300;
         }
         p
@@ -79,7 +78,7 @@
         }
         @media (max-width: 768px)
         {
-            .lead
+            .bg-lead
             {
                 font-size: 19px;
                 font-weight: 300;
@@ -87,7 +86,7 @@
         }
         @media (max-width: 480px)
         {
-            .lead
+            .bg-lead
             {
                 font-size: 16px;
                 font-weight: 300;
@@ -95,7 +94,7 @@
         }
         @media (max-width: 180px)
         {
-            .lead
+            .bg-lead
             {
                 font-size: 14px;
                 font-weight: 300;
@@ -141,19 +140,18 @@
     display: table-cell;
     vertical-align: top;
     padding-top: 50px;
-    background-image:url("/Image/pattern.png");    
-    background-color:rgba(102,102,102,0.6);
+    /*background-image:url("/Image/pattern.png");    
+    background-color:rgba(102,102,102,0.6);*/
    
 }
 
-#home 
-{
-    padding-top:0;
+#home {
+    padding-top: 0;
     background-position: center 0%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("/Image/logo10.jpg");
+    background-image: url('../Image/banner-img.jpg');
     display: table;
     width: 100%;
     height: 100%;
@@ -171,12 +169,13 @@
     margin-left: auto;
     margin-right: auto;
 }
-.home-title h1
+.home-title h2
   {
-      font-size:40px;
-      font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+    color: #fff;
     font-weight: 700;
-    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
   }
 
 
@@ -194,10 +193,10 @@
                   font-size: 32px;
               }
           }
-   /* Black buttons with extra padding and without rounded borders */       
+   /*/* Black buttons with extra padding and without rounded borders        
     .btn {
     padding: 10px 20px;
-    /*background-color: #333;*/
+    /*background-color: #333;
     background-color: #000000;
     color: #f1f1f1;
     border-radius: 0;
@@ -207,13 +206,13 @@
  
 
 /* On hover, the color of .btn will transition to white with black text */
-.btn:hover, .btn:focus 
+/*.btn:hover, .btn:focus 
 {
     border: 1px solid #000000;
-   /* border: 1px solid #333;*/
+   /* border: 1px solid #333;
     background-color: #1abc9c;
     color: #000;
-}
+}*/
 /*Modal Design*/
 /* Add a dark gray background color to the modal header and center text */
 .mod-header, mod-h4, .mod-close {
@@ -228,3 +227,118 @@
     padding: 20px 20px;
 }
 /*Modal Design*/
+/*Newly added */
+.caption-slider {
+    position: absolute;
+    left: 0;
+    top: 26%;
+    width: 100%;
+}
+.hero-banner {
+    position: relative;
+    /* height: 841px; */
+    overflow: hidden;
+}
+ h1 span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 13px;
+}
+.caption-slider .industry-list {
+    margin-top: 51px;
+}
+/*.industry-link {
+    background: #03b6e7;
+}*/
+.industry-list .list-industry-item > a {
+    display: block;
+    /*padding: 25px 0px 25px;*/
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration:none;
+}
+.industry-list .list-industry-item > a .icon-bussiness {
+    width: 60px;
+    background: url(../Image/icon-bussiness.png) center center no-repeat;
+}
+.industry-list .list-industry-item > a i {
+    display: block;
+    margin: 0 auto 15px;
+    height: 60px;
+}
+.industry-list .list-industry-item > a .icon-education {
+    width: 60px;
+    background: url(../Image/education-icon.png) center center no-repeat;
+}
+.industry-list .list-industry-item > a .icon-technology {
+    width: 60px;
+    background: url(../Image/icon-technology.png) center center no-repeat;
+}
+.theme-yellow-bg *, .theme-yellow-bg h4 a {
+    color: #ffffff !important;
+}
+.nav > li > a:hover, .nav > li > a:focus, .header .nav > li.active > a {
+    background: none;
+    color: #ffac55;
+}
+}
+.navbar-default .navbar-nav > li > .dropdown-nav li .menu-pointer,
+.map-pointer small {
+  border-left-color: #16d428;
+}
+.navbar-default .navbar-nav > li > .dropdown-nav li .menu-pointer {
+  border-right-color: #16d428;
+}
+.csstransforms3d .cl-effect-19 a:hover small::before,
+.csstransforms3d .cl-effect-19 a:focus small::before {
+  background-color: #4aec5a;
+}
+.img-shadow:hover::before,
+.thumbnail:hover .img-shadow::before {
+  -webkit-box-shadow: inset 0px 0px 0px 6px #16d428;
+  box-shadow: inset 0px 0px 0px 6px #16d428;
+}
+.list-social.hi-icon-effect-1 .hi-icon:after {
+  box-shadow: 0 0 0 2px #16d428;
+}
+  
+.transition_effect {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*.btn-theme,*/
+.hero-banner .zeus .tp-bullet:after,
+.tag-container,
+.projects-info .arrow {
+  background: #16d428;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.hero-banner .zeus .tp-bullet.selected,
+.hero-banner .zeus .tp-bullet:hover {
+  border-color: #16d428;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+

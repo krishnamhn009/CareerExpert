@@ -4,18 +4,36 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">  
-    <form id="SerchJob" runat="server">
-        <section id="home" class="margin-top-30">
+
+  <div class="container links-container fixed-parent">
+      <nav id="sub-links" class="clearfix fixed">
+<div class="inner">
+<ul class="clearfix">
+<li class="home"><a href="get-jobs" class="external"><i class="fa  fa-2x fa-home"></i></a></li>
+<li><a href="https://www.techgig.com/jobs/Walkin" class="external">Latest Walkins</a></li>
+<li><a href="https://www.techgig.com/jobs/Fresher" class="external">Fresher Jobs</a></li>
+<li><a href="https://www.techgig.com/jobs/top-company-jobs" class="external">Top Company Jobs</a></li>
+<li class="post-job"><a href="post-job" class="external">Hiring? Post a Job</a></li>
+<!-- <li><a href="#recommendations">Recommendations</a></li> -->
+</ul>
+</div>
+<%--<a href="javasript:void(0);" class="btn button2 more-menu-btn" id="more-sub-links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars"></i>More</a>
+<ul aria-labelledby="more-sub-links" class="dropdown-menu"></ul>--%>
+</nav>
+
+  </div>
+     <form id="SerchJob" runat="server">
+        <section id="home">
                    
             <div class="home-container text-center" style="position:static;">
                 <div class="home-title">
                     <%--<form id="SerchJob" runat="server">--%>
-                    <div class="row text-center">
+                   <%-- <div class="row text-center">
                     <h1>
                        <strong> Earn Job referrals from Company Insiders and Get Hired</strong></h1>
                         Increase Chances of Getting Hired by 20x Times....
-                       </div>
-                    <div class="row text-center margin-top-30">
+                       </div>--%>
+               <%--     <div class="row text-center margin-top-30">
                         <div class="col-md-offset-3 col-sm-offset-2 col-md-2 col-sm-3 form-group">
                             <div class="dropdown">
                                 <asp:DropDownList runat="server" ID="ddlLocation" CssClass="btn btn-sm dropdown-toggle placeholder dropdown-tranparent"
@@ -42,19 +60,46 @@
                             <asp:Button CssClass="btn btn-success" ID="btnSearchJob" runat="server" 
                                 Text="Search" onclick="btnSearchJob_Click" />
                         </div>
-                    </div>
+                    </div>   --%>
+
+                       <div class="row margin-top-15">          
+            <div class="col-sm-3">
+                <a type="button" class="btn-lg"><i class="fa fa-user-plus fa-4x colortheme"></i></a>
+                <h4>
+                    Be A Member</h4>
+            </div>       
+            <div class="col-sm-3">
+                <a type="button" class="btn-lg" ><i class="fa fa-clipboard fa-4x colortheme">
+                    
+                </i></a>
+                <h4>
+                    Fill Your Profile</h4>
+            </div>
+            <div class="col-sm-3">
+                <a type="button" class="btn-lg"><i class="fa fa-list-ul fa-4x colortheme"></i></a>
+                <h4>
+                    Select A Job and Request Referral</h4>                
+            </div>
+            <div class="col-sm-3">
+                <i class="fa fa-signal fa-4x colortheme"></i>
+                <h4 class="navbar-text">
+                  Increase Chances of Getting Hired by 20x Times!!!</h4>               
+            </div>
+        </div>
+
+
                     <%--</form>--%>
                 </div>                 
                 </div>             
         </section> 
         
           <%--========================================================--%>
-<div id="HowItWorks" class="container-fluid text-center" >
+<%--<div id="HowItWorks" class="container-fluid text-center" >
         <h2>
             <small>How It Works</small></h2>
         <p>
         </p>
-        <div class="row margin-top-15">          
+     <%--   <div class="row margin-top-15">          
             <div class="col-sm-3">
                 <a type="button" class="btn-lg"><i class="fa fa-user-plus fa-3x colortheme"></i></a>
                 <h4>
@@ -78,9 +123,60 @@
                   Increase Chances of Getting Hired by 20x Times!!!</h4>               
             </div>
         </div>
-    </div>
+    </div>--%>
 
             <%--============================================================--%> 
+         <div class="container margin-top-15">
+          <div id="search-College">  
+              <div class="search-form">
+              <div class="row">  
+                 <div class=" col-sm-3 col-xs-12">
+                   <div class="form-group">
+                        <label>Skills & Title </label>
+                            <asp:TextBox runat="server" CssClass="form-control col-md-3 col-sm-3" ID="txtJobKeyword" placeholder="Job title ,keyword or company name.."
+                                 type="text" />
+                        </div> 
+                     </div> 
+                  <div class="col-sm-2  col-xs-6">  
+                   <div class="form-group">
+                            <label>Location </label>
+                            <div class="dropdown">
+                                <asp:DropDownList runat="server" ID="ddlLocation" CssClass="btn btn-lg btn-info-outline dropdown-toggle"
+                                    EnableTheming="true" TabIndex="1">
+                                    <asp:ListItem Text="Select City" Value="0"/>
+                                    <asp:ListItem Text="Bangalore" Value="1" />
+                                    <asp:ListItem Text="Mumbai" Value="2" />        
+                                    <asp:ListItem Text="Pune" Value="3" />
+                                    <asp:ListItem Text="Delhi" Value="4" />
+                                    <asp:ListItem Text="Kolkata" Value="5" />
+                                    <asp:ListItem Text="Chennai" Value="6" />
+                                    <asp:ListItem Text="Gurgaon" Value="7" />
+                                    <asp:ListItem Text="Ahmedabad" Value="8" />                                    
+                                    <asp:ListItem Text="Coimbatore" Value="9" />
+                                    <asp:ListItem Text="Kochi" Value="10" />
+                                </asp:DropDownList>
+                            </div>
+                                                    
+                        </div>
+                      </div>
+                  <div class="col-sm-1  margin-top-20 col-xs-6">  
+                   <div class="form-group"> 
+                     <asp:Button CssClass="btn btn-lg btn-danger-outline" ID="btnSearchJob" runat="server" 
+                                Text="Search" onclick="btnSearchJob_Click" /> 
+                       </div>
+                      </div>                     
+                   <div class="col-sm-4 col-sm-offset-2 col-xs-12">
+                        <div class="hire">
+                        <h6>Are you Hiring?</h6>
+                        <a href="get-jobs" class="btn btn-lg btn-warning-outline ">Post a Job</a>
+                        </div>
+                        <a href="https://www.techgig.com/upload_resume.php" class="btn btn-default btn-lg upload-resume margin-top-30"><i class="fa fa-upload"></i> Upload Resume</a>
+                        </div>
+                    </div>   
+                  </div>
+                 </div>
+              </div> 
+
 <div class="container-fluid">
     <div class="row text-center">
     
@@ -100,41 +196,48 @@
         <asp:UpdatePanel ID="pnlHelloWorld" runat="server">
             <ContentTemplate>
     <div class="container" >
-        <div class="row margin-top-30">
-         <h2 class="text-center">
-                 <small>Current Openings</small></h2>
-         <div class="col-md-8">            
+         <div class="row" style="background:#f4f4f4;">
+           <h3>Latest Jobs</h3>
+             </div>
+        <div class="row">                      
+                    <div class="col-md-8 col-md-offset-2">  
                 <asp:Repeater ID="rptResult" runat="server">                    
                     <ItemTemplate>
+                       
                         <div class="panel  panel-default">
                             <div class="panel-body panel-heading-career">
-                                <p class="page-header panel-title ">
-                                    <a class="text-info" title="Click to see details" data-toggle="collapse" data-parent="#accordion" href="#<%# DataBinder.Eval(Container.DataItem, "JobId")%>">
+                                <p class="panel-title">
+                                    <a class="text-white" data-toggle="collapse" data-parent="#accordion" href="#<%# DataBinder.Eval(Container.DataItem, "JobId")%>">
                                      
                                         <%# DataBinder.Eval(Container.DataItem, "JobTitle")%></a>
-                                    (
-                                    <%# DataBinder.Eval(Container.DataItem, "JobExperience")%>
-                                    Years Exp.)
-                                    <%# DataBinder.Eval(Container.DataItem, "PostedDate")%>
+                                    <div class="text-left"> 
+                                  <i class="fa fa-user-secret" aria-hidden="true"></i> <%# DataBinder.Eval(Container.DataItem, "JobExperience")%>
+                                    yrs.
+                                     | <i class="fa fa-calendar" aria-hidden="true"></i> <%# DataBinder.Eval(Container.DataItem, "PostedDate","{0:d/MMM/yyyy}")%>
+                                        </div>
                                     <div class="text-left">                                        
-                                        <%# DataBinder.Eval(Container.DataItem, "Company")%> |
-                                        <%# DataBinder.Eval(Container.DataItem, "Location")%>
+                                        <i class="fa fa-building-o" aria-hidden="true"></i> <%# DataBinder.Eval(Container.DataItem, "Company")%> |
+                                      <i class="fa fa-map-marker" aria-hidden="true"></i> <%# DataBinder.Eval(Container.DataItem, "Location")%>
                                         </div>
                                 </p>
                             </div>
                             <div id="<%# DataBinder.Eval(Container.DataItem, "JobId")%>" class="panel-collapse collapse in">
                             <div class="panel-body">
-                                <p class="page-header panel-title">
+                                <p class="text-black">
                                     <%# DataBinder.Eval(Container.DataItem, "JobDesc") %>                                  
                                     </p>
-                                <h4 class="text-right"><a class="btn btn-sm btn-success" href="referral-jobs?job=<%# DataBinder.Eval(Container.DataItem, "JobId")%>"
+                                 <hr/>                               
+                                <h4 class="text-right"><a class="btn btn-lg btn-danger-outline" href="get-jobs?job=<%# DataBinder.Eval(Container.DataItem, "JobId")%>"
                                     id="btnApply" type="submit"
                                     >Request Refer</a></h4>
                             </div>
                             </div>
-                        </div>
+                           
+                        </div> 
+                            
                     </ItemTemplate>              
-                </asp:Repeater>                
+                </asp:Repeater>  
+                      
                 <nav>
                  <ul class="pager">
                      <li class="page-item">
@@ -179,10 +282,10 @@
                     
                  </ul>
              </nav>          
-               
+                 </div>   
             </div>
-         <div class="col-md-2" runat="server">
-         <asp:Repeater ID="Repeater2" runat="server">                    
+        
+         <asp:Repeater ID="Repeater2" runat="server" Visible="false">                    
                     <ItemTemplate>
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -211,20 +314,19 @@
                     </ItemTemplate>              
                 </asp:Repeater>
 <%--=======================advertise service start===========--%>
-            <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-in.amazon-adsystem.com/widgets/q?rt=ss_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F4aa9d1ae-fb6b-41c0-9dee-f7c0505c3ff7"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-in.amazon-adsystem.com/widgets/q?rt=ss_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F4aa9d1ae-fb6b-41c0-9dee-f7c0505c3ff7&Operation=NoScript">Amazon.in Widgets</A></NOSCRIPT>
+           <%-- <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-in.amazon-adsystem.com/widgets/q?rt=ss_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F4aa9d1ae-fb6b-41c0-9dee-f7c0505c3ff7"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-in.amazon-adsystem.com/widgets/q?rt=ss_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F4aa9d1ae-fb6b-41c0-9dee-f7c0505c3ff7&Operation=NoScript">Amazon.in Widgets</A></NOSCRIPT>
 
              <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-in.amazon-adsystem.com/widgets/q?rt=qf_sp_asin_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F8aac5530-d0e3-46a3-b422-3d55489d861b"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-in.amazon-adsystem.com/widgets/q?rt=qf_sp_asin_mfw&ServiceVersion=20070822&MarketPlace=IN&ID=V20070822%2FIN%2Fcareerexpert-21%2F8001%2F8aac5530-d0e3-46a3-b422-3d55489d861b&Operation=NoScript">Amazon.in Widgets</A></NOSCRIPT>
 
                <div data-sdid="1033502174" data-identifier="SnapdealAffiliateAds" data-height="250" data-width="300"></div>
-              <script async id="snap_zxcvbnhg" src="https://affiliate-ads.snapdeal.com/affiliate/js/snapdealAffiliate.js"></script>
+              <script async id="snap_zxcvbnhg" src="https://affiliate-ads.snapdeal.com/affiliate/js/snapdealAffiliate.js"></script>--%>
 
 
 
 <%--=======================end=========================--%>
 
          </div>
-    </div>
-</div>
+    
             </ContentTemplate>
         </asp:UpdatePanel>
 

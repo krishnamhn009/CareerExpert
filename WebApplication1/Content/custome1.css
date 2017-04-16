@@ -1,0 +1,61 @@
+﻿body {
+     font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+}
+.carousel-inner img {
+      /*-webkit-filter: grayscale(90%);
+      filter: grayscale(90%);*/ /* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+/*added for home page service row start*/
+.caption-slider {
+    position: absolute;
+    left: 0;
+    top: 26%;
+    width: 100%;
+}
+h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.caption-slider .industry-list {
+    margin-top: 51px;
+}
+.industry-list .list-industry-item > a {
+    display: block;
+    padding: 83px 0px 98px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.industry-list .list-industry-item > a .icon-bussiness {
+    width: 60px;
+    background: url(../Image/icon-bussiness.png) center center no-repeat;
+}
+.industry-list .list-industry-item > a i {
+    display: block;
+    margin: 0 auto 15px;
+    height: 60px;
+}
+.industry-list .list-industry-item > a .icon-education {
+    width: 60px;
+    background: url(../Image/education-icon.png) center center no-repeat;
+}
+.industry-list .list-industry-item > a .icon-technology {
+    width: 70px;
+    background: url(../Image/icon-technology.png) center center no-repeat;
+}
+.industry-list .list-industry-item > a .icon-banking {
+    width: 55px;
+    background: url(../Image/icon-banking.png) center center no-repeat;
+}
+.theme-yellow-bg *, .theme-yellow-bg h4 a {
+    color: #ffffff !important;
+}/*added for home page service row end*/

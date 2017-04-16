@@ -59,6 +59,11 @@ namespace BALLib
             bool result = JobDO.AddJob(job, userMessage, adminMessage, mailSubject);
             return result;
         }
+        public bool PostJob(Jobs job, string userMessage, string adminMessage, string mailSubject)
+        {
+            bool result = JobDO.PostJob(job, userMessage, adminMessage, mailSubject);
+            return result;
+        }
 
         public bool DeleteJob(string jobId)
         {
